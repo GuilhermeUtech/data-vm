@@ -1,0 +1,42 @@
+binding traffic generators to 0.0.0.0
+flaming target(s) [192.168.0.77] on port 853 with 1 concurrent generators, each sending 1 queries every 1000ms on protocol dot
+query generator [static] contains 1 record(s)
+0.975907s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.82525/1.82525/1.82525ms, in flight: 1, timeouts: 0
+1.9768s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.35359/1.35359/1.35359ms, in flight: 1, timeouts: 0
+2.97701s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.45476/1.45476/1.45476ms, in flight: 1, timeouts: 0
+3.97744s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.07621/1.07621/1.07621ms, in flight: 1, timeouts: 0
+4.97675s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.34441/1.34441/1.34441ms, in flight: 1, timeouts: 0
+5.97698s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.40108/1.40108/1.40108ms, in flight: 1, timeouts: 0
+6.97757s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.8216/1.8216/1.8216ms, in flight: 1, timeouts: 0
+7.97724s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.4701/1.4701/1.4701ms, in flight: 1, timeouts: 0
+8.9773s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.14913/1.14913/1.14913ms, in flight: 1, timeouts: 0
+9.9777s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.24474/1.24474/1.24474ms, in flight: 1, timeouts: 0
+10.9781s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.59485/1.59485/1.59485ms, in flight: 1, timeouts: 0
+11.9782s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.49489/1.49489/1.49489ms, in flight: 1, timeouts: 0
+12.9781s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.6908/1.6908/1.6908ms, in flight: 1, timeouts: 0
+13.9781s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.33859/1.33859/1.33859ms, in flight: 1, timeouts: 0
+14.9787s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.14993/1.14993/1.14993ms, in flight: 1, timeouts: 0
+15.9799s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.61633/1.61633/1.61633ms, in flight: 1, timeouts: 0
+16.9808s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.56889/1.56889/1.56889ms, in flight: 1, timeouts: 0
+17.9816s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.02337/1.02337/1.02337ms, in flight: 1, timeouts: 0
+18.9811s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.28574/1.28574/1.28574ms, in flight: 1, timeouts: 0
+19.9768s: send: 1, avg send: 1, recv: 1, avg recv: 1, min/avg/max resp: 1.04628/1.04628/1.04628ms, in flight: 1, timeouts: 0
+
+------
+run id      : 7ffd2b8ce1a0
+run start   : 2021-09-02T21:33:30Z
+runtime     : 19.9799 s
+total sent  : 20
+total rcvd  : 20
+min resp    : 1.02337 ms
+avg resp    : 1.39753 ms
+max resp    : 1.82525 ms
+avg r qps   : 1
+avg s qps   : 1
+avg pkt     : 40 bytes
+tcp conn.   : 20
+timeouts    : 0 (0%) 
+bad recv    : 0
+net errors  : 0
+responses   :
+  NOERROR: 20
